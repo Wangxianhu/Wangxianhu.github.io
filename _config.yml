@@ -1,6 +1,6 @@
 # Site settings
 title: 鹬的博客
-SEOTitle: 你的博客 | Your Blog
+SEOTitle: 王先虎的Blog
 header-img: img/home-bg.jpg
 email: 2100858887@qq.com
 description: "hello我叫王先虎"
@@ -12,11 +12,11 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
 RSS: false
-weibo_username:   Wangxianhu  
-zhihu_username:    Wangxianhu 
+weibo_username:   5688919349  
+#zhihu_username:    Wangxianhu 
 github_username:    Wangxianhu
 #twitter_username:  Wangxianhu
-facebook_username:  Wangxianhu
+#facebook_username:  Wangxianhu
 
 
 
