@@ -170,6 +170,44 @@ layout: default
                                 </a>
                             </li>
                             {% endif %}
+							{% if site.linkedin_username %}
+							<li>
+								<a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+									<span class="fa-stack fa-lg">
+										<i class="fa fa-circle fa-stack-2x"></i>
+										<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+									</span>
+								</a>
+							</li>
+							{% endif %}
+							{% if site.wechat_img %}
+							<li class="wechat_li">
+								<a target="_blank">
+									<span class="fa-stack fa-lg">
+										<i class="fa fa-circle fa-stack-2x"></i>
+										<i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+									</span>
+								</a>
+								<div>
+								<h6 style="color:black">扫描二维码添加微信</h6>
+								<img src="{{ site.wechat_img }}">	
+								</div>
+							</li>
+							{% endif %}
+							{% if site.qq_img %}
+							<li class="qq_li">
+								<a target="_blank">
+									<span class="fa-stack fa-lg">
+										<i class="fa fa-circle fa-stack-2x"></i>
+										<i class="fa fa-qq fa-stack-1x fa-inverse"></i>
+									</span>
+								</a>
+								<div>
+								<h6 style="color:black">扫描二维码添加QQ</h6>
+								<img src="{{ site.qq_img }}">	
+								</div>
+							</li>
+							{% endif %}
                         </ul>
                     </div>
                 </section>

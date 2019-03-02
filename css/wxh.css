@@ -1,0 +1,35 @@
+.wechat_li {
+    position: relative;
+}
+.wechat_li div {
+    display: none;
+    position: absolute;
+    bottom: 40px;
+	margin-left: -50px;
+	text-align: center;
+}
+.wechat_li:hover div{
+    display: block;
+}
+.wechat_li img{
+  width:150px ! important;
+}
+
+
+
+.qq_li {
+    position: relative;
+}
+.qq_li div {
+    display: none;
+    position: absolute;
+    bottom: 40px;
+	margin-left: -50px;
+	text-align: center;
+}
+.qq_li:hover div{
+    display: block;
+}
+.qq_li img{
+  width:150px ! important;
+}
