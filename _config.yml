@@ -1,6 +1,6 @@
 # Site settings
 title: 王先虎的博客
-SEOTitle: 王先虎的Blog
+SEOTitle: 王先虎的博客
 header-img: img/home-bg.jpg
 email: 2100858887@qq.com
 description: "hello我叫王先虎"
@@ -85,16 +85,16 @@ friends: [
         title: "Hux Blog",
         href: "http://huangxuan.me"
     },{
-        title: "Foo",
+        title: "刘臣",
         href: "#"
     },{
-        title: "Bar",
+        title: "开琦",
         href: "#"
     },{
-        title: "Example Friends",
+        title: "橘子",
         href: "#"
     },{
-        title: "It helps SEO",
+        title: "苹果",
         href: "#"
     }
 ]
