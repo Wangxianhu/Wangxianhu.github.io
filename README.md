@@ -4,7 +4,7 @@
 
 #### [模板介绍及模板创建人github](https://github.com/Huxpro/huxpro.github.io/blob/master/README.zh.md)
 
-#### 个人博客
+#### 个人博客 [链接](https://wangxianhu.github.io)
 
 =================
 markdown

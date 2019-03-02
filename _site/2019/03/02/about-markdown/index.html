@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>王先虎的博客</title>
+    <title>关于Markdown的使用和语法 - 王先虎的博客</title>
 
-    <link rel="canonical" href="http://localhost:4000/">
+    <link rel="canonical" href="http://localhost:4000/2019/03/02/about-markdown/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -126,194 +126,243 @@
 </script>
 
 
-    <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/about-markdown/bg.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/about-markdown/bg.jpg')
+    }
+</style>
+<header class="intro-header" >
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>王先虎的博客</h1>
-                    <!--<hr class="small">-->
-                    <span class="subheading">读书破万卷,下笔若有神.</span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#markdown" title="markdown">markdown</a>
+                        
+                        <a class="tag" href="/tags/#学习" title="学习">学习</a>
+                        
+                        <a class="tag" href="/tags/#笔记" title="笔记">笔记</a>
+                        
+                    </div>
+                    <h1>关于Markdown的使用和语法</h1>
+                    
+                    
+                    <h2 class="subheading"> "一个后端程序员的的第二篇博客"</h2>
+                    
+                    <span class="meta">Posted by 王先虎 on March 2, 2019</span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-        
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
 
-<!-- USE SIDEBAR -->
     <!-- Post Container -->
-    		<div class="
-                col-lg-8 col-lg-offset-1
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                post-container
-            ">
-    			
-<div class="post-preview">
-    <a href="/2019/03/02/about-markdown/">
-        <h2 class="post-title">
-            关于Markdown的使用和语法
-        </h2>
-        
-        <h3 class="post-subtitle">
-             "一个后端程序员的的第二篇博客"
-        </h3>
-        
-        <div class="post-content-preview">
-            一次在freecodecamp网站刷题的时候无意间点到了一个博客，而博客的地址使我产生了兴趣，地址类似xxx.github.io，这不是github的域名吗， 由于以前有注册过github账号但是不常用，于是乎，百度了一下，明白了这是gihub提供的免费网站托管服务。作为一个后端程序员，拥有一个 自己的博客是必要的，这样便可以记录学到的东西，以方便以后查看。由于第一次接触博客，不知从何入手，...
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by 王先虎 on March 2, 2019
-    </p>
-</div>
-<hr>
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
 
-<div class="post-preview">
-    <a href="/2019/03/01/my-first/">
-        <h2 class="post-title">
-            我的第一篇博客
-        </h2>
-        
-        <h3 class="post-subtitle">
-             "哈哈哈哈哈哈哈哈"
-        </h3>
-        
-        <div class="post-content-preview">
-            
-  “Yeah It’s on. ”
+				<p>一次在freecodecamp网站刷题的时候无意间点到了一个博客，而博客的地址使我产生了兴趣，地址类似xxx.github.io，这不是github的域名吗，
+由于以前有注册过github账号但是不常用，于是乎，百度了一下，明白了这是gihub提供的免费网站托管服务。作为一个后端程序员，拥有一个
+自己的博客是必要的，这样便可以记录学到的东西，以方便以后查看。由于第一次接触博客，不知从何入手，幸好我聪明过人，察觉到搭建博客
+网站可以用模板，终于在我的不懈努力下搭建成功了，虽然搭建成功了但发现博客大都用markdown语法书写，但是我没有接触过markdown，于是
+乎就有了这篇博客。</p>
+
+<h2 id="1标题">1、标题</h2>
+
+<p>markdown的标题是用#号来区分的一级标题就在前面加一个#两个标题加两个以此类推共六级</p>
+
+<p><strong>代码</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+</code></pre></div></div>
+
+<p><strong>效果</strong></p>
+
+<h1 id="一级标题">一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<h4 id="四级标题">四级标题</h4>
+<h5 id="五级标题">五级标题</h5>
+<h6 id="六级标题">六级标题</h6>
+
+<h2 id="2列表">2、列表</h2>
+
+<p>一、无序列表在文字间加 - 就行了</p>
+
+<p><strong>代码</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- 文本
+- 文本
+- 文本
+</code></pre></div></div>
+
+<p><strong>效果</strong></p>
+
+<ul>
+  <li>文本</li>
+  <li>文本</li>
+  <li>文本</li>
+</ul>
+
+<p>二、有序列表可以直接在文字前加1.2.3.就可以了</p>
+
+<p><strong>代码</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. 文本
+2. 文本
+3. 文本
+</code></pre></div></div>
+
+<p><strong>效果</strong></p>
+
+<ol>
+  <li>文本</li>
+  <li>文本</li>
+  <li>文本</li>
+</ol>
+
+<h2 id="3连接">3、连接</h2>
+
+<p>连接格式<code class="highlighter-rouge">[显示的文本](要跳转的链接)</code></p>
+
+<p><strong>代码</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>这是我的[github](https://github.com/Wangxianhu)账号
+</code></pre></div></div>
+
+<p><strong>效果</strong></p>
+
+<p>这是我的<a href="https://github.com/Wangxianhu">github</a>账号</p>
+
+<h2 id="4图片">4、图片</h2>
+
+<p>图片和链接很像格式<code class="highlighter-rouge">![图片信息](图片地址)</code>,不过图片比连接多个!号</p>
+
+<p><strong>代码</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![我的头像](https://avatars1.githubusercontent.com/u/23569009?s=460&amp;v=4)
+</code></pre></div></div>
+
+<p><strong>效果</strong></p>
+
+<p><img src="https://avatars1.githubusercontent.com/u/23569009?s=460&amp;v=4" alt="我的头像" /></p>
+
+<h2 id="5引用">5、引用</h2>
+
+<p>在写博客时可能要引用别人的文字这时引用格式就很必要了，引用格式只要在前面加上&gt; ,注意&gt;号后面要加上空格</p>
+
+<p><strong>代码</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; 如果我不在乎你，我不会为你笑！
+</code></pre></div></div>
+
+<p><strong>效果</strong></p>
+
+<blockquote>
+  <p>如果我不在乎你，我不会为你笑！</p>
+</blockquote>
+
+<h2 id="6粗体和斜体">6、粗体和斜体</h2>
+
+<p>粗体和斜体很简单，就是在在粗体字之外加上两个<em>*在，斜体字之外加一个</em></p>
+
+<p><strong>代码</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>这是**粗体**，这是*斜体*
+</code></pre></div></div>
+
+<p><strong>效果</strong></p>
+
+<p>这是<strong>粗体</strong>，这是<em>斜体</em></p>
+
+<h2 id="7代码引用">7、代码引用</h2>
+
+<p>如果引用的代码只有一行可以用一个<code class="highlighter-rouge">将代码包起来，如果分行则可用</code>``置于首行和尾行</p>
+
+<p><strong>代码</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>`hello world`
+
+```
+public String say(String){
+	System.out.println(String);
+}
+```
+</code></pre></div></div>
+
+<p><strong>效果</strong></p>
+
+<p><code class="highlighter-rouge">hello world</code></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public String say(String){
+	System.out.println(String);
+}
+</code></pre></div></div>
 
 
-哈哈哈这是我的第一篇博客
+                <hr>
 
-第一篇不知道说什么，先劈个叉把！！！
-
-
-
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by 王先虎 on March 1, 2019
-    </p>
-</div>
-<hr>
+                
 
 
-<!-- Pager -->
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2019/03/01/my-first/" data-toggle="tooltip" data-placement="top" title="我的第一篇博客">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
 
 
-    		</div>
+                
+
+                
+
+            </div>
+
     <!-- Sidebar Container -->
             <div class="
-                col-lg-3 col-lg-offset-0
-                col-md-3 col-md-offset-0
-                col-sm-12
-                col-xs-12
-                sidebar-container
-            ">
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
                 <!-- Featured Tags -->
                 
                 <section>
                     <hr class="hidden-sm hidden-xs">
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
-                        
+        				
                             
-                        
+        				
                             
-                        
+        				
                             
-                        
+        				
                             
-                        
-                    </div>
+        				
+        			</div>
                 </section>
                 
 
-                <!-- Short About -->
-                <section class="visible-md visible-lg">
-                    <hr><h5><a href="/about/">ABOUT ME</a></h5>
-                    <div class="short-about">
-                        
-                            <img src="/img/avatar-hux.jpg" />
-                        
-                        
-                            <p>写写代码，做做设计，看看产品。世界那么大，多玩玩看看。</p>
-                        
-                        <!-- SNS Link -->
-                        <ul class="list-inline">
-                            
-                            
-                            
-                            
-                            <li>
-                                <a target="_blank" href="http://weibo.com/5688919349">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            
-                            
-                            
-                            <li>
-                                <a target="_blank" href="https://github.com/Wangxianhu">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            
-							
-							<li>
-								<a target="_blank" href="https://www.linkedin.com/in/先虎-王-695940133">
-									<span class="fa-stack fa-lg">
-										<i class="fa fa-circle fa-stack-2x"></i>
-										<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-									</span>
-								</a>
-							</li>
-							
-							
-							<li class="wechat_li">
-								<a target="_blank">
-									<span class="fa-stack fa-lg">
-										<i class="fa fa-circle fa-stack-2x"></i>
-										<i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
-									</span>
-								</a>
-								<div>
-								<h6 style="color:black">扫描二维码添加微信</h6>
-								<img src="https://7sfaf-1258679655.cos.ap-chengdu.myqcloud.com/wechat_pic.jpg">	
-								</div>
-							</li>
-							
-							
-							<li class="qq_li">
-								<a target="_blank">
-									<span class="fa-stack fa-lg">
-										<i class="fa fa-circle fa-stack-2x"></i>
-										<i class="fa fa-qq fa-stack-1x fa-inverse"></i>
-									</span>
-								</a>
-								<div>
-								<h6 style="color:black">扫描二维码添加QQ</h6>
-								<img src="https://7sfaf-1258679655.cos.ap-chengdu.myqcloud.com/qq_pic.jpg">	
-								</div>
-							</li>
-							
-                        </ul>
-                    </div>
-                </section>
                 <!-- Friends Blog -->
                 
                 <hr>
@@ -332,10 +381,52 @@
                     
                 </ul>
                 
-    		</div>
-        
-	</div>
-</div>
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
 
 
     <!-- Footer -->

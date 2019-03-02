@@ -5,9 +5,67 @@
     <description>hello我叫王先虎</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 Mar 2019 10:14:04 +0800</pubDate>
-    <lastBuildDate>Sat, 02 Mar 2019 10:14:04 +0800</lastBuildDate>
+    <pubDate>Sat, 02 Mar 2019 20:32:47 +0800</pubDate>
+    <lastBuildDate>Sat, 02 Mar 2019 20:32:47 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>关于Markdown的使用和语法</title>
+        <description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;一次在freecodecamp网站刷题的时候无意间点到了一个博客，而博客的地址使我产生了兴趣，地址类似xxx.github.io，这不是github的域名吗， 由于以前有注册过github账号但是不常用，于是乎，百度了一下，明白了这是gihub提供的免费网站托管服务。作为一个后端程序员，拥有一个 自己的博客是必要的，这样便可以记录学到的东西，以方便以后查看。由于第一次接触博客，不知从何入手，幸好我聪明过人，察觉到搭建博客 网站可以用模板，终于在我的不懈努力下搭建成功了，虽然搭建成功了但发现博客大都用markdown语法书写，但是我没有接触过markdown，于是 乎就有了这篇博客。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;##1、标题&lt;/p&gt;
+
+&lt;p&gt;markdown的标题是用#号来区分的一级标题就在前面加一个#两个标题加两个以此类推共六级&lt;/p&gt;
+
+&lt;p&gt;代码
+    # 一级标题
+    ## 二级标题
+    ### 三级标题
+    #### 四级标题
+    ##### 五级标题
+    ###### 六级标题&lt;/p&gt;
+
+&lt;p&gt;效果&lt;/p&gt;
+
+&lt;h1 id=&quot;一级标题&quot;&gt;一级标题&lt;/h1&gt;
+&lt;h2 id=&quot;二级标题&quot;&gt;二级标题&lt;/h2&gt;
+&lt;h3 id=&quot;三级标题&quot;&gt;三级标题&lt;/h3&gt;
+&lt;h4 id=&quot;四级标题&quot;&gt;四级标题&lt;/h4&gt;
+&lt;h5 id=&quot;五级标题&quot;&gt;五级标题&lt;/h5&gt;
+&lt;h6 id=&quot;六级标题&quot;&gt;六级标题&lt;/h6&gt;
+
+&lt;p&gt;##2、列表&lt;/p&gt;
+
+&lt;p&gt;有序列表在文字间加-就行了&lt;/p&gt;
+
+&lt;p&gt;代码&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- 文本
+- 文本
+- 文本
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;效果&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;文本&lt;/li&gt;
+  &lt;li&gt;文本&lt;/li&gt;
+  &lt;li&gt;文本&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 02 Mar 2019 17:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/03/02/about-markdown/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/02/about-markdown/</guid>
+        
+        <category>markdown</category>
+        
+        <category>学习</category>
+        
+        <category>笔记</category>
+        
+        
+      </item>
     
       <item>
         <title>我的第一篇博客</title>
@@ -19,6 +77,7 @@
 
 &lt;p&gt;第一篇不知道说什么，先劈个叉把！！！&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/img/pc.jpg&quot; alt=&quot;cmd-markdown-logo&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Mar 2019 16:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/03/01/my-first/</link>
