@@ -5,28 +5,33 @@
     <description>hello我叫王先虎</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 Mar 2019 20:32:47 +0800</pubDate>
-    <lastBuildDate>Sat, 02 Mar 2019 20:32:47 +0800</lastBuildDate>
+    <pubDate>Sun, 03 Mar 2019 09:11:48 +0800</pubDate>
+    <lastBuildDate>Sun, 03 Mar 2019 09:11:48 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>关于Markdown的使用和语法</title>
-        <description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;一次在freecodecamp网站刷题的时候无意间点到了一个博客，而博客的地址使我产生了兴趣，地址类似xxx.github.io，这不是github的域名吗， 由于以前有注册过github账号但是不常用，于是乎，百度了一下，明白了这是gihub提供的免费网站托管服务。作为一个后端程序员，拥有一个 自己的博客是必要的，这样便可以记录学到的东西，以方便以后查看。由于第一次接触博客，不知从何入手，幸好我聪明过人，察觉到搭建博客 网站可以用模板，终于在我的不懈努力下搭建成功了，虽然搭建成功了但发现博客大都用markdown语法书写，但是我没有接触过markdown，于是 乎就有了这篇博客。
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+        <description>&lt;p&gt;一次在freecodecamp网站刷题的时候无意间点到了一个博客，而博客的地址使我产生了兴趣，地址类似xxx.github.io，这不是github的域名吗，
+由于以前有注册过github账号但是不常用，于是乎，百度了一下，明白了这是gihub提供的免费网站托管服务。作为一个后端程序员，拥有一个
+自己的博客是必要的，这样便可以记录学到的东西，以方便以后查看。由于第一次接触博客，不知从何入手，幸好我聪明过人，察觉到搭建博客
+网站可以用模板，终于在我的不懈努力下搭建成功了，虽然搭建成功了但发现博客大都用markdown语法书写，但是我没有接触过markdown，于是
+乎就有了这篇博客。&lt;/p&gt;
 
-&lt;p&gt;##1、标题&lt;/p&gt;
+&lt;h2 id=&quot;1标题&quot;&gt;1、标题&lt;/h2&gt;
 
 &lt;p&gt;markdown的标题是用#号来区分的一级标题就在前面加一个#两个标题加两个以此类推共六级&lt;/p&gt;
 
-&lt;p&gt;代码
-    # 一级标题
-    ## 二级标题
-    ### 三级标题
-    #### 四级标题
-    ##### 五级标题
-    ###### 六级标题&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;代码&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;效果&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;效果&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;一级标题&quot;&gt;一级标题&lt;/h1&gt;
 &lt;h2 id=&quot;二级标题&quot;&gt;二级标题&lt;/h2&gt;
@@ -35,23 +40,187 @@
 &lt;h5 id=&quot;五级标题&quot;&gt;五级标题&lt;/h5&gt;
 &lt;h6 id=&quot;六级标题&quot;&gt;六级标题&lt;/h6&gt;
 
-&lt;p&gt;##2、列表&lt;/p&gt;
+&lt;h2 id=&quot;2列表&quot;&gt;2、列表&lt;/h2&gt;
 
-&lt;p&gt;有序列表在文字间加-就行了&lt;/p&gt;
+&lt;p&gt;一、无序列表在文字间加 - 就行了&lt;/p&gt;
 
-&lt;p&gt;代码&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;代码&lt;/strong&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- 文本
 - 文本
 - 文本
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;效果&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;效果&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;文本&lt;/li&gt;
   &lt;li&gt;文本&lt;/li&gt;
   &lt;li&gt;文本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;二、有序列表可以直接在文字前加1.2.3.就可以了&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;代码&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. 文本
+2. 文本
+3. 文本
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;效果&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;文本&lt;/li&gt;
+  &lt;li&gt;文本&lt;/li&gt;
+  &lt;li&gt;文本&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;3连接&quot;&gt;3、连接&lt;/h2&gt;
+
+&lt;p&gt;连接格式&lt;code class=&quot;highlighter-rouge&quot;&gt;[显示的文本](要跳转的链接)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;代码&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;这是我的[github](https://github.com/Wangxianhu)账号
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;效果&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这是我的&lt;a href=&quot;https://github.com/Wangxianhu&quot;&gt;github&lt;/a&gt;账号&lt;/p&gt;
+
+&lt;h2 id=&quot;4图片&quot;&gt;4、图片&lt;/h2&gt;
+
+&lt;p&gt;图片和链接很像格式&lt;code class=&quot;highlighter-rouge&quot;&gt;![图片信息](图片地址)&lt;/code&gt;,不过图片比连接多个!号&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;代码&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![我的头像](https://avatars1.githubusercontent.com/u/23569009?s=460&amp;amp;v=4)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;效果&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://avatars1.githubusercontent.com/u/23569009?s=460&amp;amp;v=4&quot; alt=&quot;我的头像&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;5引用&quot;&gt;5、引用&lt;/h2&gt;
+
+&lt;p&gt;在写博客时可能要引用别人的文字这时引用格式就很必要了，引用格式只要在前面加上&amp;gt; ,注意&amp;gt;号后面要加上空格&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;代码&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; 如果我不在乎你，我不会为你笑！
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;效果&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;如果我不在乎你，我不会为你笑！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;6粗体和斜体&quot;&gt;6、粗体和斜体&lt;/h2&gt;
+
+&lt;p&gt;粗体和斜体很简单，就是在在粗体字之外加上两个&lt;em&gt;*在，斜体字之外加一个&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;代码&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;这是**粗体**，这是*斜体*
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;效果&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这是&lt;strong&gt;粗体&lt;/strong&gt;，这是&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;7代码引用&quot;&gt;7、代码引用&lt;/h2&gt;
+
+&lt;p&gt;如果引用的代码只有一行可以用一个&lt;code class=&quot;highlighter-rouge&quot;&gt;将代码包起来，如果分行则可用&lt;/code&gt;``置于首行和尾行&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;代码&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;`hello world`
+
+```
+public String say(String){
+	System.out.println(String);
+}
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;效果&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hello world&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public String say(String){
+	System.out.println(String);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;##表格&lt;/p&gt;
+
+&lt;p&gt;默认标题栏居中对齐，内容居左对齐。&lt;code class=&quot;highlighter-rouge&quot;&gt;-:&lt;/code&gt;表示居右对齐，&lt;code class=&quot;highlighter-rouge&quot;&gt;:-:&lt;/code&gt;表示居中对齐，&lt;code class=&quot;highlighter-rouge&quot;&gt;:-&lt;/code&gt;表示居左对齐&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;代码&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;|   普通标题   |   普通标题    |   普通标题   |
+|--------------|---------------|--------------|
+|    短文本    |    短文本     |    短文本    |
+| 稍微长的文本 |  稍微长的文本 | 稍微长的文本 |
+
+|  左对齐标题  |  右对齐标题   | 居中对齐文本 |
+|:-------------|--------------:|:------------:|
+|  短文本    |   中等文本    |稍微长一点的文本|
+|稍微长一点的文本| 短文本    |     中等文本   |
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;效果&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;普通标题&lt;/th&gt;
+      &lt;th&gt;普通标题&lt;/th&gt;
+      &lt;th&gt;普通标题&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;短文本&lt;/td&gt;
+      &lt;td&gt;短文本&lt;/td&gt;
+      &lt;td&gt;短文本&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;稍微长的文本&lt;/td&gt;
+      &lt;td&gt;稍微长的文本&lt;/td&gt;
+      &lt;td&gt;稍微长的文本&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;左对齐标题&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;右对齐标题&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;居中对齐文本&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;短文本&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;中等文本&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;稍微长一点的文本&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;稍微长一点的文本&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;短文本&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;中等文本&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;相关资料：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.jianshu.com/p/2df05f279331&quot;&gt;Markdown插入表格语法&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 02 Mar 2019 17:00:00 +0800</pubDate>
