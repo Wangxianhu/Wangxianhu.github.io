@@ -71,7 +71,7 @@ markdown的标题是用#号来区分的一级标题就在前面加一个#两个�
 
 ## 3、连接
 
-连接格式`[显示的文本](要跳转的链接)`
+一、普通连接，格式`[显示的文本](要跳转的链接)`
 
 **代码**
 
@@ -81,6 +81,18 @@ markdown的标题是用#号来区分的一级标题就在前面加一个#两个�
 
 这是我的[github](https://github.com/Wangxianhu)账号
 
+二、锚点连接
+
+**代码**
+
+	定义：<a name='md'>锚点</a><br>
+	使用：[点击我试一下](#md)
+
+**效果**
+
+定义：<a name='md'>锚点</a><br>
+使用：[点击我试一下](#md)
+	
 ## 4、图片
 
 图片和链接很像格式`![图片信息](图片地址)`,不过图片比连接多个!号
@@ -172,3 +184,4 @@ public String say(String){
 相关资料：
 
 - [Markdown插入表格语法](https://www.jianshu.com/p/2df05f279331)
+- [https://www.jianshu.com/p/876f7d77fd6e](https://www.jianshu.com/p/876f7d77fd6e)

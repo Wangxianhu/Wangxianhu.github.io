@@ -5,8 +5,8 @@
     <description>hello我叫王先虎</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 03 Mar 2019 09:11:48 +0800</pubDate>
-    <lastBuildDate>Sun, 03 Mar 2019 09:11:48 +0800</lastBuildDate>
+    <pubDate>Thu, 07 Mar 2019 17:03:46 +0800</pubDate>
+    <lastBuildDate>Thu, 07 Mar 2019 17:03:46 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -78,7 +78,7 @@
 
 &lt;h2 id=&quot;3连接&quot;&gt;3、连接&lt;/h2&gt;
 
-&lt;p&gt;连接格式&lt;code class=&quot;highlighter-rouge&quot;&gt;[显示的文本](要跳转的链接)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;一、普通连接，格式&lt;code class=&quot;highlighter-rouge&quot;&gt;[显示的文本](要跳转的链接)&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;代码&lt;/strong&gt;&lt;/p&gt;
 
@@ -88,6 +88,19 @@
 &lt;p&gt;&lt;strong&gt;效果&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;这是我的&lt;a href=&quot;https://github.com/Wangxianhu&quot;&gt;github&lt;/a&gt;账号&lt;/p&gt;
+
+&lt;p&gt;二、锚点连接&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;代码&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;定义：&amp;lt;a name='md'&amp;gt;锚点&amp;lt;/a&amp;gt;&amp;lt;br&amp;gt;
+使用：[点击我试一下](#md)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;效果&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;定义：&lt;a name=&quot;md&quot;&gt;锚点&lt;/a&gt;&lt;br /&gt;
+使用：&lt;a href=&quot;#md&quot;&gt;点击我试一下&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;4图片&quot;&gt;4、图片&lt;/h2&gt;
 
@@ -221,6 +234,7 @@ public String say(String){
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.jianshu.com/p/2df05f279331&quot;&gt;Markdown插入表格语法&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.jianshu.com/p/876f7d77fd6e&quot;&gt;https://www.jianshu.com/p/876f7d77fd6e&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 02 Mar 2019 17:00:00 +0800</pubDate>

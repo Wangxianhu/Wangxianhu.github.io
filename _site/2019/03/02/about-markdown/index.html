@@ -240,7 +240,7 @@
 
 <h2 id="3连接">3、连接</h2>
 
-<p>连接格式<code class="highlighter-rouge">[显示的文本](要跳转的链接)</code></p>
+<p>一、普通连接，格式<code class="highlighter-rouge">[显示的文本](要跳转的链接)</code></p>
 
 <p><strong>代码</strong></p>
 
@@ -250,6 +250,19 @@
 <p><strong>效果</strong></p>
 
 <p>这是我的<a href="https://github.com/Wangxianhu">github</a>账号</p>
+
+<p>二、锚点连接</p>
+
+<p><strong>代码</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>定义：&lt;a name='md'&gt;锚点&lt;/a&gt;&lt;br&gt;
+使用：[点击我试一下](#md)
+</code></pre></div></div>
+
+<p><strong>效果</strong></p>
+
+<p>定义：<a name="md">锚点</a><br />
+使用：<a href="#md">点击我试一下</a></p>
 
 <h2 id="4图片">4、图片</h2>
 
@@ -383,6 +396,7 @@ public String say(String){
 
 <ul>
   <li><a href="https://www.jianshu.com/p/2df05f279331">Markdown插入表格语法</a></li>
+  <li><a href="https://www.jianshu.com/p/876f7d77fd6e">https://www.jianshu.com/p/876f7d77fd6e</a></li>
 </ul>
 
 
@@ -400,7 +414,20 @@ public String say(String){
                     
                 </ul>
 
-
+				<!-- valine评论 start -->
+				<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+				<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+				<script>
+					var valine = new Valine();
+					valine.init({
+						el:'#comment',
+						appId:'mPJ4u4g6nSKKdat96Om9yHXW-gzGzoHsz',
+						appKey:'GxWOJrUk3rp4y7RwIXSBSfvg',
+						placeholder:'ヾﾉ≧∀≦)o来啊，快活啊!'
+					})
+				</script>
+				<div id="comment"></div>
+				<!-- valine评论 end -->
                 
 
                 
