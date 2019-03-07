@@ -93,6 +93,10 @@ layout: default
 				<!-- valine评论 start -->
 				<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 				<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+				<span id="{{site.url}}{{site.baseurl}}{{page.url}}" class="leancloud-visitors view" data-flag-title="Chrome">
+				    <em class="post-meta-item-text">阅读量 </em>
+				    <i class="leancloud-visitors-count">loading</i>
+				</span>
 				<div id="comment"></div>
 				<script>
 					var valine = new Valine();
@@ -100,7 +104,8 @@ layout: default
 						el:'#comment',
 						appId:'mPJ4u4g6nSKKdat96Om9yHXW-gzGzoHsz',
 						appKey:'GxWOJrUk3rp4y7RwIXSBSfvg',
-						placeholder:'ヾﾉ≧∀≦)o来啊，快活啊!'
+						placeholder:'ヾﾉ≧∀≦)o来啊，快活啊!',
+						visitor:true
 					})
 				</script>
 				<!-- valine评论 end -->
