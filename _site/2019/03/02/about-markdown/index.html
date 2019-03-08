@@ -402,8 +402,6 @@ public String say(String){
 
                 <hr>
 
-                
-
 
                 <ul class="pager">
                     
@@ -415,8 +413,13 @@ public String say(String){
                 </ul>
 
 				<!-- valine评论 start -->
+				
 				<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-				<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+				<script src='//unpkg.com/valine@latest/dist/Valine.min.js'></script>
+				<span id="/2019/03/02/about-markdown/" class="leancloud-visitors" data-flag-title="关于Markdown的使用和语法">
+				    <em class="post-meta-item-text">阅读量 </em>
+				    <i class="leancloud-visitors-count">loading</i>
+				</span>
 				<div id="comment"></div>
 				<script>
 					var valine = new Valine();
@@ -424,10 +427,12 @@ public String say(String){
 						el:'#comment',
 						appId:'mPJ4u4g6nSKKdat96Om9yHXW-gzGzoHsz',
 						appKey:'GxWOJrUk3rp4y7RwIXSBSfvg',
-						placeholder:'ヾﾉ≧∀≦)o来啊，快活啊!'
+						placeholder:'ヾﾉ≧∀≦)o来啊，快活啊!',
+						visitor:'true'
 					})
 				</script>
 				<!-- valine评论 end -->
+                
                 
 
                 
@@ -483,12 +488,6 @@ public String say(String){
 </article>
 
 
-
-
-
-
-
-
 <!-- async load function -->
 <script>
     function async(u, c) {
@@ -502,7 +501,7 @@ public String say(String){
 </script>
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
 <script>
-    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
         anchors.options = {
           visible: 'always',
           placement: 'right',
