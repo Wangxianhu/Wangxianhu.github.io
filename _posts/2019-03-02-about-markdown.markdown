@@ -2,7 +2,7 @@
 layout:     post
 title:      "关于Markdown的使用和语法"
 subtitle:   " \"一个后端程序员的的第二篇博客\""
-date:       2019-03-02 9:00:00
+date:       2019-03-02 9:00:00 UTC+8
 author:     "王先虎"
 header-img: "img/about-markdown/bg.jpg"
 tags:
@@ -153,7 +153,7 @@ public String say(String){
 }
 ```
 
-##表格
+## 8、表格
 
 默认标题栏居中对齐，内容居左对齐。`-:`表示居右对齐，`:-:`表示居中对齐，`:-`表示居左对齐
 
@@ -180,6 +180,20 @@ public String say(String){
 |:-------------|--------------:|:------------:|
 |  短文本    |   中等文本    |稍微长一点的文本|
 |稍微长一点的文本| 短文本    |     中等文本   |
+
+## 9、字体颜色
+
+修改字体颜色用`<font color='red'></font>`
+
+**代码**
+
+	字体颜色为<font color='red'>红色</font>
+	
+**效果**
+
+字体颜色为<font color='red'>红色</font>
+
+<font color='white'>I live you</font>
 
 相关资料：
 
