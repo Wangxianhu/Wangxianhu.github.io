@@ -2,7 +2,7 @@
 layout:     post
 title:      "linux常用shell命令"
 subtitle:   " \"一些简单常用shell命令的记录\""
-date:       2019-03-12 9:00:00 UTC+8
+date:       2019-03-12 14:49:00 UTC+8
 author:     "王先虎"
 header-img: "img/about-markdown/bg.jpg"
 tags:
