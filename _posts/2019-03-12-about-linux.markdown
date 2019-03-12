@@ -11,6 +11,15 @@ tags:
     - 笔记
 ---
 
+> 人世间，有一些事情， 
+<br>你不清楚它美在哪里，忧伤又在哪里。 
+<br>开始在哪里，回忆又在哪里。 
+<br>犹豫在哪里，执着又在哪里。 
+<br>失望在哪里，希望又在哪里。 
+<br>但是你会明白，你在爱着。 
+<br>你便有光，使你人生淡淡地发亮。
+<br> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;  ——榛生《倾慕》
+
 由于自己不是做运维的，但是工作有打包上传项目，解决一些简单服务器问题的需要，所以简单linux shell命令是需要的，这里只是一些简单的记录，以后如有需要再在原文上添加
 
 ## 1、查询当前下目录文件及文件夹命令
@@ -39,9 +48,9 @@ rm -fr 文件或文件加
 
 上传文件一般都是用ssh软件连接服务器，用ssh上传
 
-## 5、启动关闭tomcat
+## 5、启动/关闭tomcat
 
-启动关闭tomcat一般都是执行bin文件夹下的sh命令
+启动/关闭tomcat一般都是执行bin文件夹下的sh命令
 
 启动命令
 

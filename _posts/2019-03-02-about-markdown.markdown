@@ -11,6 +11,10 @@ tags:
     - 笔记
 ---
 
+> 有很多人，即使生年满百，也未尝会怀上看星的忧愁。 
+<br>因他们从不仰望天空。
+<br>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;——榛生《倾慕》
+
 一次在freecodecamp网站刷题的时候无意间点到了一个博客，而博客的地址使我产生了兴趣，地址类似xxx.github.io，这不是github的域名吗，
 由于以前有注册过github账号但是不常用，于是乎，百度了一下，明白了这是gihub提供的免费网站托管服务。作为一个后端程序员，拥有一个
 自己的博客是必要的，这样便可以记录学到的东西，以方便以后查看。由于第一次接触博客，不知从何入手，幸好我聪明过人，察觉到搭建博客
