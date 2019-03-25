@@ -1,0 +1,14 @@
+---
+layout:     post
+title:      "JavaScript语法总结"
+subtitle:   " \"所学知识的简单记录\""
+date:       2019-03-18 14:49:00 UTC+8
+author:     "王先虎"
+header-img: "img/about-markdown/bg.jpg"
+tags:
+    - JavaScript
+    - 学习
+    - 笔记
+---
+
+> 
