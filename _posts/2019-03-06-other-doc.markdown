@@ -1,0 +1,311 @@
+---
+layout:     post
+title:      "其他接口文档"
+subtitle:   " \"\""
+date:       2019-03-06 10:20:00 UTC+8
+author:     "王先虎"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 项目
+---
+
+<p align="center"><font size='7'><b><a name='ml'>其他接口文档</a></b></font></p>
+
+## <a>目录</a>
+
+      
+1. [目录树](#aa1)
+2. [地图](#aa2)
+3. [街道检索地图](#aa3)
+4. [复合检索地图](#aa4)
+
+---
+
+## **<a href='#ml' name='aa1' >1\. 目录树</a>**
+
+### 接口功能
+
+查询分类数据
+
+### URL
+
+[http://39.106.198.108:8140/cover-web/equipmentCatalog](http://39.106.198.108:8140/cover-web/equipmentCatalog)
+
+### 支持格式
+
+json
+
+### HTTP请求方式
+
+get
+
+### 请求参数
+
+无
+
+### 返回字段
+
+|返回字段|字段类型|说明|
+|:-----   |:------|:-----|
+|entityId|int|分类id|
+|entityNum|string|分类编号|
+|entityName|string|分类名|
+|entitysNum|string|子分类编号|
+|eneitysName|string|子分类名|
+|eneityssNum|string|子子分类编号|
+|eneityssName|string|子子分类名|
+
+### 接口示例
+
+地址：[http://39.106.198.108:8140/cover-web/equipmentCatalog](http://39.106.198.108:8140/cover-web/equipmentCatalog)
+
+``` javascript
+[{
+	"entityId": 1,
+	"entityNum": "MC01",
+	"entityName": "太阳能",
+	"entitysNum": "SE01",
+	"eneitysName": "水泥",
+	"eneityssNum": "YT01",
+	"eneityssName": "市政"
+}, {
+	"entityId": 2,
+	"entityNum": "MC01",
+	"entityName": "太阳能",
+	"entitysNum": "SE01",
+	"eneitysName": "水泥",
+	"eneityssNum": "YT02",
+	"eneityssName": "燃气"
+}]
+```
+
+## **<a href='#ml' name='aa2' >2\. 地图</a>**
+
+### 接口功能
+
+查询地图设备数据（有权限筛选，有锁状态转换）
+
+### URL
+
+[http://39.106.198.108:8140/cover-web/mapShowEquipmen](http://39.106.198.108:8140/cover-web/mapShowEquipmen)
+
+### 支持格式
+
+json
+
+### HTTP请求方式
+
+post
+
+### 请求参数
+
+无
+
+### 返回字段
+
+|返回字段|字段类型|说明|
+|:-----   |:------|:-----|
+|coverterId|int|设备id|
+|coverId|int|井盖id|
+|terminalId|int|终端id|
+|lockId|int|锁id|
+|street|string|街道|
+|longitude|string|经度|
+|latitude|string|纬度|
+
+### 接口示例
+
+地址：[http://39.106.198.108:8140/cover-web/mapShowEquipmen](http://39.106.198.108:8140/cover-web/mapShowEquipmen)
+
+``` javascript
+{
+	"coverTerminalList": [{
+		"coverterId": 1495,
+		"coverId": null,
+		"terminalId": 1332,
+		"equipmentId": 2,
+		"lockId": null,
+		"street": "中国北京市昌平区X005(南环南路)",
+		"technicalP": null,
+		"stockNum": null,
+		"coverState": "1",
+		"enclosureId": null,
+		"installDate": 1551786240000,
+		"installNum": null,
+		"repairNum": null,
+		"longitude": "116.286203",
+		"latitude": "40.212751",
+		"repairDate": null,
+		"photo": null,
+		"guaraNum": null,
+		"guaraDate": null,
+		"userId": null,
+		"companyId": 1,
+		"mainNum": null,
+		"warrantyDate": null,
+		"entitysId": "IT02-YT06",
+		"num1": null,
+		"num2": null,
+		"num3": null,
+		"num4": null
+	}]
+}
+```
+
+## **<a href='#ml' name='aa3' >3\. 街道检索地图</a>**
+
+### 接口功能
+
+根据街道查询地图设备数据（有权限筛选,有搜索优先级）
+
+### URL
+
+[http://39.106.198.108:8140/cover-web/vagueMapShow](http://39.106.198.108:8140/cover-web/vagueMapShow)
+
+### 支持格式
+
+json
+
+### HTTP请求方式
+
+post
+
+### 请求参数
+
+|参数|必选|类型|说明|
+|:-----  |:-------|:-----|-----|
+|street|no|string|位置模糊查询字段|
+
+### 返回字段
+
+|返回字段|字段类型|说明|
+|:-----   |:------|:-----|
+|coverterId|int|设备id|
+|coverId|int|井盖id|
+|terminalId|int|终端id|
+|lockId|int|锁id|
+|street|string|街道|
+|longitude|string|经度|
+|latitude|string|纬度|
+
+### 接口示例
+
+地址：[http://39.106.198.108:8140/cover-web/vagueMapShow](http://39.106.198.108:8140/cover-web/vagueMapShow)
+
+``` javascript
+{
+	"coverTerminalList": [{
+		"coverterId": 1495,
+		"coverId": null,
+		"terminalId": 1332,
+		"equipmentId": 2,
+		"lockId": null,
+		"street": "中国北京市昌平区X005(南环南路)",
+		"technicalP": null,
+		"stockNum": null,
+		"coverState": "1",
+		"enclosureId": null,
+		"installDate": 1551786240000,
+		"installNum": null,
+		"repairNum": null,
+		"longitude": "116.286203",
+		"latitude": "40.212751",
+		"repairDate": null,
+		"photo": null,
+		"guaraNum": null,
+		"guaraDate": null,
+		"userId": null,
+		"companyId": 1,
+		"mainNum": null,
+		"warrantyDate": null,
+		"entitysId": "IT02-YT06",
+		"num1": null,
+		"num2": null,
+		"num3": null,
+		"num4": null
+	}]
+}
+```
+
+## **<a href='#ml' name='aa4' >4\. 复合检索地图</a>**
+
+### 接口功能
+
+根据分类和关键字查询地图设备数据（有权限筛选，有锁状态转换，有搜索优先级）
+
+### URL
+
+[http://39.106.198.108:8140/cover-web/equipmentShow](http://39.106.198.108:8140/cover-web/equipmentShow)
+
+### 支持格式
+
+json
+
+### HTTP请求方式
+
+post
+
+### 请求参数
+
+|参数|必选|类型|说明|
+|:-----  |:-------|:-----|-----|
+|entitys|yes|string|分类编号|
+|street|no|string|模糊查询字段或搜索的用户名或公司名|
+
+### 返回字段
+
+|返回字段|字段类型|说明|
+|:-----   |:------|:-----|
+|coverterId|int|设备id|
+|coverId|int|井盖id|
+|terminalId|int|终端id|
+|lockId|int|锁id|
+|street|string|街道|
+|longitude|string|经度|
+|latitude|string|纬度|
+
+### 接口示例
+
+地址：[http://39.106.198.108:8140/cover-web/equipmentShow](http://39.106.198.108:8140/cover-web/equipmentShow)
+
+``` javascript
+{
+	"coverTerminalList": [{
+		"coverterId": 1495,
+		"coverId": null,
+		"terminalId": 1332,
+		"equipmentId": 2,
+		"lockId": null,
+		"street": "中国北京市昌平区X005(南环南路)",
+		"technicalP": null,
+		"stockNum": null,
+		"coverState": "1",
+		"enclosureId": null,
+		"installDate": 1551786240000,
+		"installNum": null,
+		"repairNum": null,
+		"longitude": "116.286203",
+		"latitude": "40.212751",
+		"repairDate": null,
+		"photo": null,
+		"guaraNum": null,
+		"guaraDate": null,
+		"userId": null,
+		"companyId": 1,
+		"mainNum": null,
+		"warrantyDate": null,
+		"entitysId": "IT02-YT06",
+		"num1": null,
+		"num2": null,
+		"num3": null,
+		"num4": null
+	}]
+}
+```
+
+注：
+
+1. 权限筛选：是指根据不同权限查询用户名下或公司名下
+2. 优先级：是指给设备上挂载的产品分级（有优先级就意味着忽略其他产品）
+3. 锁状态转换：是指把设备上的状态放弃替换为相关联锁产品的状态
+4. 搜索优先级：是指给相同关键字匹配表字段的先后顺序（先用户，再公司，最后街道）
